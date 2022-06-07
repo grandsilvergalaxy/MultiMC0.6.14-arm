@@ -196,7 +196,7 @@ status "Downloading the MultiMC5 Source Code directly from the official reposito
 git clone --recursive https://github.com/MultiMC/Launcher.git src
 cd src || error "Could not move to directory"
 git remote set-url origin https://github.com/MultiMC/Launcher.git
-git checkout --recurse-submodules develop || error "Could not checkout develop branch"
+git checkout --recurse-submodules 0.6.14 || error "Could not checkout develop branch"
 git pull --recurse-submodules || error "Could Not Pull Latest MultiMC Source Code, verify your ~/MultiMC/src directory hasn't been modified. You can detete the  ~/MultiMC/src folder to attempt to fix this error and run this script again."
 git checkout --recurse-submodules cad522fe4151a43286bf2fa6206a20893d62eda1 || error "Could Not Checkout MultiMC Source Code commit, verify your ~/MultiMC/src directory hasn't been modified. You can detete the  ~/MultiMC/src folder to attempt to fix this error and run this script again."
 # add secrets files
