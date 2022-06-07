@@ -8,7 +8,7 @@
 <h3> 0.6.15 patches the microsoft accounts therefore verifying that they own the game forcing accounts that don't own the game to play the Demo Version of Minecraft </h3>
 
 <h2> How To Install </h2>
-```bash
 
+```bash
 wget -qO- https://raw.githubusercontent.com/grandsilvergalaxy/MultiMC0.6.14-arm/main/install.sh | bash
 ```
