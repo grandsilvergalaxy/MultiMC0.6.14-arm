@@ -9,6 +9,6 @@
 
 <h2> How To Install </h2>
 ```bash
-wget -qO- https://raw.githubusercontent.com/grandsilvergalaxy/MultiMC0.6.14-arm/main/install.sh | bash
 
+wget -qO- https://raw.githubusercontent.com/grandsilvergalaxy/MultiMC0.6.14-arm/main/install.sh | bash
 ```
